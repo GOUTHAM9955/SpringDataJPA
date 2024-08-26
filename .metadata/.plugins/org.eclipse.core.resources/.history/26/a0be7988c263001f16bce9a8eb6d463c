@@ -1,0 +1,2 @@
+spring.application.name=SpringJDBCLauncher21
+server.port=8485

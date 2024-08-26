@@ -1,0 +1,3 @@
+spring.application.name=SpringJDBCLauncher21
+server.port=8485
+spring.h2.console.enabled=true

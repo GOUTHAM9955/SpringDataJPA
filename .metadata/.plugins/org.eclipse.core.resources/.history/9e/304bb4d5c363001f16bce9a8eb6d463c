@@ -1,0 +1,5 @@
+package com.launch.SpringJDBCLauncher3.dao;
+
+public class SpringDataJDBC {
+
+}
