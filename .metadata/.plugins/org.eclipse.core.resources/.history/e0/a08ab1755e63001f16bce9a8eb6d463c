@@ -1,0 +1,5 @@
+package com.launch.SpringJDBCLauncher2.dao;
+
+public class DetailsImplementationDao {
+
+}

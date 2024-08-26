@@ -1,0 +1,41 @@
+package com.launch.springJPA.SpringJPALauncher1;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+/*
+ * Spring Boot:
+	
+	Advantages of SpringBoot
+		Simplying the build(either Maven/Gradle) using starter pom
+
+		Autoconfiguration:
+			-> Component scanning
+			-> Intializing IOC Container
+			-> Creating connection pooling(Default is Hikari Connection Pool)
+			-> We have default embeded server which is tomcat server
+			-> We have actuators to know the status of the application to know how many beans are loaded
+
+
+	Ways to develop spring boot application
+		1) Using spring initializer--> start.spring.io
+		2) Using STS
+
+
+	SpringApplication.run() contains logic to start Spring IOC container
+
+	Different classes will be used based on the application(what we specify as dependency ex: boot-stater, boot-starter-web. boot-starter-webflux etc) to genrate an ApplicationContext container
+
+	@SpringBootApplication annotation is equivalent to: component scan + enable auto configuration + configuration
+		(right click + open declaration)
+
+
+ */
+@SpringBootApplication
+public class SpringJpaLauncher1Application {
+
+	public static void main(String[] args) {
+		SpringApplication.run(SpringJpaLauncher1Application.class, args);
+	}
+
+}
