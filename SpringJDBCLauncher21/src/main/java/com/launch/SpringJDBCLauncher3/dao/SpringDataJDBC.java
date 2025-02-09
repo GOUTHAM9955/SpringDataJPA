@@ -7,10 +7,10 @@ import org.springframework.stereotype.Repository;
 @Repository("repo")
 public class SpringDataJDBC {
 	@Autowired
-	private JdbcTemplate jdbc;
+	private JdbcTemplate jdbcTemplate;
 	private static final String SQL_QUERY ="INSERT INTO DETAILS(name, email, number) VALUES (? , ?, ?)";
 	
 	public void input(Details detail) {
-		jdbc.update(SQL_QUERY, detail.getName(),detail.getEmail(),detail.getNumber());
+		jdbcTemplate.update(SQL_QUERY, detail.getName(),detail.getEmail(),detail.getNumber());
 	}
 }

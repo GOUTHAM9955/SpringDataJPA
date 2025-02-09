@@ -13,6 +13,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 
 import org.springframework.stereotype.Repository;
 
+import com.launch.SpringJDBCLauncher2.model.Details;
+
 @Repository("dao")
 public class DetailsImplementationDao implements InterfaceDetailsDao{
 	

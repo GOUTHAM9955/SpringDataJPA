@@ -1,0 +1,5 @@
+package com.launch.SpringJPA.dao;
+
+public class Student {
+
+}

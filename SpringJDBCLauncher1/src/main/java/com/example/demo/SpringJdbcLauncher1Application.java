@@ -51,7 +51,14 @@ import org.springframework.context.ApplicationContext;
 * 
 * 	In spring JDBC API we have to write all the bolierplate code(loading driver, establishing connection, writing query etc..) that we practised in JDBC
 * 	In spring JDBC we use JDBC Template class avoiding all the code which we wrote in JDBC ut we still need to write the queries
-* 	If we want to avoid all the above stemps including writing queries we use SpringDataJPA which inturn use hibernate
+* 	If we want to avoid all the above steps including writing queries we use SpringDataJPA which inturn use hibernate
+ */
+
+/*
+ * All the changable configurations(like DB, ApacheKafka, Redis) are usually written either in application.properties or application.yaml file
+ * In application.properties, the values in given in key value pair, in case of SpringJDBC we can find all the properties form spring documentation
+ * 
+ * 
  */
 
 @SpringBootApplication
