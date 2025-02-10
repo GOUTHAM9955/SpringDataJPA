@@ -24,7 +24,13 @@ import jakarta.persistence.GenerationType;
  *  	2) saveAll -> To save multiple objects at a time passed as collection object 
  *  	3) count -> To get number of records in DB 
  *  	4) existsById -> To check if that Id exists in DB
- *  	5) findAll -> To get all the data from that table
+ *  	5) findAll -> To get all the data from that table 
+ *      6) findAllById -> We can pass multiple id's and get the rows associated
+ *      7) findById -> Returns row with Id (Returns Optional Object of type Entity)
+ *      	For Optional object to check if object is present >> optional.isPresent()
+ *      	If value is present, to retrieve the object present in it >> optional.get()
+ *      8) Usually to delete a record by Id we can get optional object and check if record is there by findById method and delete it
+ *      		or get boolean from existsById and delete if the recors exists 
  */
 
 public class SpringDataJpaLauncher1Application {
