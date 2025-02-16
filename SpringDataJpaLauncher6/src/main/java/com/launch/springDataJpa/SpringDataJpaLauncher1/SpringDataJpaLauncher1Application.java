@@ -21,6 +21,8 @@ import com.launch.springDataJpa.SpringDataJpaLauncher1.service.VaccineService;
  *    		=> findByVacineNameInAndCostBetweenAndVaccineNotLike(Collection<String> names, Double minCost, Double maxCost, String name);
  */
 
+
+
 public class SpringDataJpaLauncher1Application {
 
 	public static void main(String[] args) {
