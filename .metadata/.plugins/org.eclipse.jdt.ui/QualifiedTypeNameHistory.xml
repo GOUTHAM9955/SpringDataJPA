@@ -15,8 +15,16 @@
     <fullyQualifiedTypeName name="com.launch.SpringJDBCLauncher3.dao.Details"/>
     <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
     <fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
-    <fullyQualifiedTypeName name="org.springframework.stereotype.Repository"/>
     <fullyQualifiedTypeName name="com.launch.springDataJpa.SpringDataJpaLauncher1.repo.SampleStudentRepo"/>
     <fullyQualifiedTypeName name="jakarta.persistence.GeneratedValue"/>
     <fullyQualifiedTypeName name="jakarta.persistence.GenerationType"/>
+    <fullyQualifiedTypeName name="org.springframework.data.domain.Sort"/>
+    <fullyQualifiedTypeName name="org.springframework.data.domain.Sort.Direction"/>
+    <fullyQualifiedTypeName name="com.launch.springDataJpa.SpringDataJpaLauncher1.service.VaccineService"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Repository"/>
+    <fullyQualifiedTypeName name="org.springframework.data.domain.PageRequest"/>
+    <fullyQualifiedTypeName name="com.launch.springDataJpa.SpringDataJpaLauncher1.view.IVaccineResult"/>
+    <fullyQualifiedTypeName name="com.launch.springDataJpa.SpringDataJpaLauncher1.repo.IVaccineRepo"/>
+    <fullyQualifiedTypeName name="ch.qos.logback.core.net.SyslogOutputStream"/>
+    <fullyQualifiedTypeName name="com.launch.springDataJpa.SpringDataJpaLauncher1.dynamicView.IResult1"/>
 </qualifiedTypeNameHistroy>
