@@ -32,6 +32,8 @@ import jakarta.persistence.GenerationType;
  *  The basic syntax of custom finder methods is
  *  	//fingBy+propertyName+keyword
  *  	There are multiple keywords for custom finder methods like "and","or", "between" etc..
+ *  		You can find the keyword list at : 
+ *  			https://docs.spring.io/spring-data/jpa/reference/jpa/query-methods.html
  *  
  *  STATIC and DYNAMIC PROJECTS
  *  	Static and Dynamic projects are used to retrieve only desired columns from the DB rows
