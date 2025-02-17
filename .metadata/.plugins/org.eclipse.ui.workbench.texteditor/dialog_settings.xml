@@ -26,6 +26,9 @@
 	<section name="java.lang.Class">
 		<item key="replaceBarOpen" value="false"/>
 		<list key="findhistory">
+			<item value="sql"/>
+			<item value="data-jpa"/>
+			<item value="mongo"/>
 			<item value="base"/>
 		</list>
 	</section>

@@ -5,7 +5,6 @@
     <fullyQualifiedTypeName name="java.sql.Connection"/>
     <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
     <fullyQualifiedTypeName name="java.sql.ResultSet"/>
-    <fullyQualifiedTypeName name="org.springframework.context.ConfigurableApplicationContext"/>
     <fullyQualifiedTypeName name="com.launch.SpringJDBCLauncher2.dao.DetailsImplementationDao"/>
     <fullyQualifiedTypeName name="com.launch.SpringJDBCLauncher2.dao.Details"/>
     <fullyQualifiedTypeName name="java.util.List"/>
@@ -24,7 +23,11 @@
     <fullyQualifiedTypeName name="org.springframework.stereotype.Repository"/>
     <fullyQualifiedTypeName name="org.springframework.data.domain.PageRequest"/>
     <fullyQualifiedTypeName name="com.launch.springDataJpa.SpringDataJpaLauncher1.view.IVaccineResult"/>
-    <fullyQualifiedTypeName name="com.launch.springDataJpa.SpringDataJpaLauncher1.repo.IVaccineRepo"/>
     <fullyQualifiedTypeName name="ch.qos.logback.core.net.SyslogOutputStream"/>
     <fullyQualifiedTypeName name="com.launch.springDataJpa.SpringDataJpaLauncher1.dynamicView.IResult1"/>
+    <fullyQualifiedTypeName name="com.launch.springDataJpa.SpringDataJpaLauncher1.repo.IVaccineRepo"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.BeanUtils"/>
+    <fullyQualifiedTypeName name="org.springframework.context.ConfigurableApplicationContext"/>
+    <fullyQualifiedTypeName name="java.util.UUID"/>
+    <fullyQualifiedTypeName name="com.launcher.com.MongoDBLauncher1.utils.IdGenerator"/>
 </qualifiedTypeNameHistroy>
